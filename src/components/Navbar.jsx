@@ -23,7 +23,7 @@ const Navbar = (props) => {
   return (
     <section className="navbar">
       <div className="container">
-        <img className="logo" src={logo} />
+        <img  alt='' className="logo" src={logo} />
 
         <div className="location">
           <span className="city"> {props.city}</span>

@@ -3,7 +3,7 @@ import React from 'react'
 const Restaurant = ( { restaurant } ) => {
   return (
     <div key={restaurant.id} className="card">
-    <img width="254" height="160px" src={restaurant.image} />
+    <img width="254" alt='' height="160px" src={restaurant.image} />
 
     <div className="restaurant-details">
       <div className="restaurant-title">{restaurant.name}</div>
