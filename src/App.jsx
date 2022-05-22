@@ -7,16 +7,65 @@ import Restaurants from './components/Restaurants';
 import UserInfo from "./data/UserInfo.json";
 import offers from "./data/offers.json";
 import restaurants from "./data/restaurants.json";
+import { useState } from 'react';
 
+
+const filters = {
+  1: "Cost High to Low",
+  2: "Cost Low to High",
+  3: "Ratings",
+  4: "Delivery Time",
+  5: "Relevance",
+}
 
 function App() {
+  const [filterBy, setFilterBy] = useState("");
+  const [data, setData] = useState(restaurants);
+
+  const updateFilter = (newFilter) => {
+       setFilterBy(newFilter);
+       switch(newFilter){
+         case "1": {
+                    
+                    data.sort((a,b)=>  b.costfortwo - a.costfortwo);
+                    setData([...data]);
+                    break;
+                     }
+         case "2": {
+          data.sort((a,b)=>  a.costfortwo - b.costfortwo);
+          setData([...data]);
+          break;
+           }
+         case "3": {
+          data.sort((a,b)=>  b.rating - a.rating);
+          setData([...data]);
+          break;
+         }
+         case "4": {
+          data.sort((a,b)=>  a.deliveryTimings - b.deliveryTimings);
+          setData([...data]);
+          break;
+         }
+         case "5": {
+          data.sort((a,b)=>  a.rating - b.rating);
+          setData([...data]);
+          break;
+         }
+         default:  {
+           setData(restaurants);
+         }
+
+       }
+       
+  }
+
   return (
     <div >
       <Navbar {...UserInfo.locations} />
-      <Offers offers={offers}/>
+      <Offers offers={offers} />
       <section className="near-you">
-      <Filters/>
-      <Restaurants restaurants={restaurants}/>
+        <Filters filters={filters} currentFilterBy={filterBy} updateFilter={updateFilter} />
+        <Restaurants restaurants={data} />
       </section>
     </div>
   );

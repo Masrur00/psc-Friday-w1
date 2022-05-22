@@ -37,7 +37,10 @@
   }
 } */
 
-
+.underline {
+  /* background-color: red; */
+  border-bottom: 1px solid black;
+}
 
 .navbar {
   position: fixed;

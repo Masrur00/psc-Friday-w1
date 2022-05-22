@@ -33,7 +33,7 @@ const Navbar = (props) => {
         <div className="navbar-options">
           {
             navbarOptions.map(navbarOption => (
-              <div className="navbar-option">
+              <div key={navbarOption.iconName} className="navbar-option">
                 <span className="material-icons"> {navbarOption.iconName} </span> {navbarOption.label}
               </div>
             ))
