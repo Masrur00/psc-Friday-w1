@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "image": "assets/restaurant1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "1.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "100",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "2.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "200",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+
+    {
+        "id": 3,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "3.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "300",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "4.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "10",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "3.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "200",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "4.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "130",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 7,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "4.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "200",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    },
+    {
+        "id": 8,
+        "image": "assets/restaurant2.jpeg",
+        "name": "MH 12 Pav Bhaji",
+        "category": [ 
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis Combo",
+            "Beverages"
+        ],
+        "rating": "4.0",
+        "deliveryTimings": "33 MINS",
+        "costfortwo": "200",
+        "offer": [
+            "20% off",
+            "Use TRYNEW"
+        ]
+    }
+]
+
